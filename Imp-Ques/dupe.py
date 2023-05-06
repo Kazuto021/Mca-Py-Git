@@ -1,5 +1,3 @@
-li=[1,2,3,4,5,6,8,9]
-
     
 def check_duplicate(lst):
     lst = sorted(lst)
@@ -8,4 +6,4 @@ def check_duplicate(lst):
         return(False, "Every element is Unique!")
     else: return(True, "The list contains duplicate...")
     
-print(check_duplicate(li))
+print(check_duplicate(list(map(int,input("Enter list:\n").split(" ")))))
