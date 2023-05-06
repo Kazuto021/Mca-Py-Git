@@ -53,12 +53,3 @@ for key in di:
         
     itr+=1
     
-    
-    
-
-
-
-    
-
-        
-
